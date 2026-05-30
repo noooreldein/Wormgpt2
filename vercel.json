@@ -1,0 +1,7 @@
+{
+  "runtime": "python3.11",
+  "rewrites": [
+    { "source": "/chat", "destination": "/app" },
+    { "source": "/", "destination": "/app" }
+  ]
+}
